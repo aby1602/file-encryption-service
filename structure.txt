@@ -1,0 +1,23 @@
+encryption-app/
+├── backend/
+│   ├── app.py
+│   ├── encryption.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles.css
+│   ├── package.json
+│   ├── Dockerfile
+├── docker-compose.yml
+├── kubernetes/
+│   ├── backend-deployment.yaml
+│   ├── backend-service.yaml
+│   ├── frontend-deployment.yaml
+│   ├── frontend-service.yaml
+│   ├── mongodb-deployment.yaml
+│   ├── mongodb-service.yaml
